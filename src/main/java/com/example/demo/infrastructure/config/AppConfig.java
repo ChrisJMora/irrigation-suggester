@@ -1,4 +1,4 @@
-package com.example.demo.infraestructure.config;
+package com.example.demo.infrastructure.config;
 
 import jakarta.annotation.PostConstruct;
 import org.springframework.context.annotation.Configuration;

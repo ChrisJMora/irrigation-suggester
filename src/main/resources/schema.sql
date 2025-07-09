@@ -13,7 +13,7 @@
 -- SCHEMA CREATION
 -- =============================================
 
-DROP SCHEMA IF EXISTS admin CASCADE;
+--DROP SCHEMA IF EXISTS admin CASCADE;
 DROP SCHEMA IF EXISTS human_resources CASCADE;
 DROP SCHEMA IF EXISTS agriculture CASCADE;
 
@@ -26,30 +26,30 @@ CREATE SCHEMA agriculture;
 -- =============================================
 
 DROP TABLE IF EXISTS human_resources.employee;
-DROP TABLE IF EXISTS admin.app_user;
+--DROP TABLE IF EXISTS admin.app_user;
 
-CREATE TABLE admin.app_user (
-    user_id BIGINT AUTO_INCREMENT PRIMARY KEY,
-    user_name VARCHAR(255) NOT NULL,
-    user_password VARCHAR(60) NOT NULL,
-    user_type VARCHAR(50) NOT NULL,
-    user_email VARCHAR(255) NOT NULL
-);
-
-ALTER TABLE admin.app_user
-    ADD CONSTRAINT chk_app_user_type CHECK (user_type IN ('Administrator', 'Supervisor'));
-
-CREATE UNIQUE INDEX idx_app_user_username ON admin.app_user (user_name);
-CREATE UNIQUE INDEX idx_app_user_email ON admin.app_user (user_email);
-
-ALTER TABLE admin.app_user
-    ADD CONSTRAINT chk_app_user_username_length CHECK (CHAR_LENGTH(user_name) > 0);
-
-ALTER TABLE admin.app_user
-    ADD CONSTRAINT chk_app_user_email_length CHECK (CHAR_LENGTH(user_email) > 0);
-
-ALTER TABLE admin.app_user
-    ADD CONSTRAINT chk_app_user_password_length CHECK (CHAR_LENGTH(user_password) > 0);
+--CREATE TABLE admin.app_user (
+--    user_id BIGINT AUTO_INCREMENT PRIMARY KEY,
+--    user_name VARCHAR(255) NOT NULL,
+--    user_password VARCHAR(60) NOT NULL,
+--    user_type VARCHAR(50) NOT NULL,
+--    user_email VARCHAR(255) NOT NULL
+--);
+--
+--ALTER TABLE admin.app_user
+--    ADD CONSTRAINT chk_app_user_type CHECK (user_type IN ('Administrator', 'Supervisor'));
+--
+--CREATE UNIQUE INDEX idx_app_user_username ON admin.app_user (user_name);
+--CREATE UNIQUE INDEX idx_app_user_email ON admin.app_user (user_email);
+--
+--ALTER TABLE admin.app_user
+--    ADD CONSTRAINT chk_app_user_username_length CHECK (CHAR_LENGTH(user_name) > 0);
+--
+--ALTER TABLE admin.app_user
+--    ADD CONSTRAINT chk_app_user_email_length CHECK (CHAR_LENGTH(user_email) > 0);
+--
+--ALTER TABLE admin.app_user
+--    ADD CONSTRAINT chk_app_user_password_length CHECK (CHAR_LENGTH(user_password) > 0);
 
 -- =============================================
 -- HUMAN RESOURCES SCHEMA (Employee Management)

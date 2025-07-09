@@ -1,4 +1,4 @@
-package com.example.demo.infraestructure.repositories;
+package com.example.demo.infrastructure.repositories;
 
 import com.example.demo.domain.models.Sensor;
 import com.example.demo.domain.models.SensorRecord;

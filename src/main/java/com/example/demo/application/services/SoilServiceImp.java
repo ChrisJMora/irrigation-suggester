@@ -6,7 +6,7 @@ package com.example.demo.application.services;
 
 import com.example.demo.domain.exceptions.EmptyTableException;
 import com.example.demo.domain.models.Soil;
-import com.example.demo.infraestructure.repositories.SoilRepository;
+import com.example.demo.infrastructure.repositories.SoilRepository;
 import com.example.demo.application.ports.services.SoilService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

@@ -1,4 +1,4 @@
-package com.example.demo.infraestructure.repositories;
+package com.example.demo.infrastructure.repositories;
 
 import com.example.demo.domain.models.Crop;
 import com.example.demo.domain.models.Schedule;
