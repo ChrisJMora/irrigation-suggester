@@ -9,7 +9,7 @@ import com.example.demo.domain.exceptions.EmptyTableException;
 import com.example.demo.domain.exceptions.SaveRecordFailException;
 import com.example.demo.domain.models.Crop;
 import com.example.demo.domain.models.Location;
-import com.example.demo.infraestructure.repositories.CropRepository;
+import com.example.demo.infrastructure.repositories.CropRepository;
 import com.example.demo.application.ports.services.CropService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

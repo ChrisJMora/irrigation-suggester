@@ -7,7 +7,7 @@ package com.example.demo.application.services;
 import com.example.demo.domain.exceptions.EmptyTableException;
 import com.example.demo.domain.exceptions.SaveRecordFailException;
 import com.example.demo.domain.models.Location;
-import com.example.demo.infraestructure.repositories.LocationRepository;
+import com.example.demo.infrastructure.repositories.LocationRepository;
 import com.example.demo.application.ports.services.LocationService;
 import com.example.demo.application.ports.mappers.LocationMapper;
 import org.springframework.beans.factory.annotation.Autowired;

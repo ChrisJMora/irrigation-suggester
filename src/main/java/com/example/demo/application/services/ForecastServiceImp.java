@@ -8,7 +8,7 @@ import com.example.demo.domain.exceptions.EmptyRecordException;
 import com.example.demo.domain.exceptions.EmptyTableException;
 import com.example.demo.domain.exceptions.SaveRecordFailException;
 import com.example.demo.domain.models.Forecast;
-import com.example.demo.infraestructure.repositories.ForecastRepository;
+import com.example.demo.infrastructure.repositories.ForecastRepository;
 import com.example.demo.application.ports.services.ForecastService;
 import com.example.demo.application.ports.services.LocationService;
 import lombok.extern.slf4j.Slf4j;

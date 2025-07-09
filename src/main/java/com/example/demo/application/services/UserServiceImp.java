@@ -5,10 +5,10 @@ import com.example.demo.domain.exceptions.admin.NoSuchUserExistsException;
 import com.example.demo.domain.models.UserEntity;
 import com.example.demo.domain.models.WrappedEntity;
 import com.example.demo.application.ports.services.UserService;
-import com.example.demo.infraestructure.utils.AuthenticationUtil;
+import com.example.demo.infrastructure.utils.AuthenticationUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import com.example.demo.infraestructure.repositories.UserRepository;
+import com.example.demo.infrastructure.repositories.UserRepository;
 
 import java.util.*;
 

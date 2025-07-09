@@ -6,8 +6,8 @@ package com.example.demo.application.services;
 
 import com.example.demo.domain.exceptions.*;
 import com.example.demo.domain.models.*;
-import com.example.demo.infraestructure.repositories.ScheduleRepository;
-import com.example.demo.infraestructure.repositories.SuggestedScheduleRepository;
+import com.example.demo.infrastructure.repositories.ScheduleRepository;
+import com.example.demo.infrastructure.repositories.SuggestedScheduleRepository;
 import com.example.demo.application.ports.services.ScheduleService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;

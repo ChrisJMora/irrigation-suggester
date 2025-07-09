@@ -8,25 +8,25 @@
  * Note: Passwords are hashed using BCrypt algorithm ($2a$10$...)
  */
 
--- =============================================
--- ADMINISTRATIVE DATA (Application User Accounts)
--- =============================================
-
-/**
- * Insert sample system application users with hashed passwords
- * Password format: BCrypt ($2a$10$...)
- *
- * Sample passwords (all hashed to "password123"):
- */
-INSERT INTO admin.app_user (
-    user_name,
-    user_password,
-    user_type,
-    user_email
-) VALUES
-    ('admin1', '$2a$10$dgiyqtCrdY9rhF6xFX1HZuZYpI8rADBvHk.L.wr3kukpplXK7Fs7y', 'Administrator', 'admin1@example.com'),
-    ('supervisor1', '$2a$10$eCm0QEK0.ZWGX4G3ku1YGeY7614OfV9ZHC9EB9dzs5lNf1RP8qLyu', 'Supervisor', 'supervisor1@example.com'),
-    ('admin2', '$2a$10$PefC2T7LOoZ6P3K3i3dCk.ocUMQVzANWPt0MnDkcjQDHgLs0/2m0.', 'Administrator', 'admin2@example.com');
+---- =============================================
+---- ADMINISTRATIVE DATA (Application User Accounts)
+---- =============================================
+--
+--/**
+-- * Insert sample system application users with hashed passwords
+-- * Password format: BCrypt ($2a$10$...)
+-- *
+-- * Sample passwords (all hashed to "password123"):
+-- */
+--INSERT INTO admin.app_user (
+--    user_name,
+--    user_password,
+--    user_type,
+--    user_email
+--) VALUES
+--    ('admin1', '$2a$10$dgiyqtCrdY9rhF6xFX1HZuZYpI8rADBvHk.L.wr3kukpplXK7Fs7y', 'Administrator', 'admin1@example.com'),
+--    ('supervisor1', '$2a$10$eCm0QEK0.ZWGX4G3ku1YGeY7614OfV9ZHC9EB9dzs5lNf1RP8qLyu', 'Supervisor', 'supervisor1@example.com'),
+--    ('admin2', '$2a$10$PefC2T7LOoZ6P3K3i3dCk.ocUMQVzANWPt0MnDkcjQDHgLs0/2m0.', 'Administrator', 'admin2@example.com');
 
 -- =============================================
 -- HUMAN RESOURCES DATA (Employee Records)

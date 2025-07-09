@@ -10,7 +10,7 @@ import com.example.demo.domain.models.Crop;
 import com.example.demo.domain.models.IrrigationType;
 import com.example.demo.domain.models.Sprinkler;
 import com.example.demo.domain.utils.factories.SprinklerFactory;
-import com.example.demo.infraestructure.repositories.SprinklerRepository;
+import com.example.demo.infrastructure.repositories.SprinklerRepository;
 import com.example.demo.application.ports.services.SprinklerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
